@@ -1,13 +1,4 @@
-.card {
-  box-shadow: 0 4px 8px 0 #2b7266;
-  display: inline-block;
-  transition: 0.3s;
-  width: 30%;
-  border-radius: 5px;
-  margin-bottom: 200px;
-  background-color: #489780;
-  margin: 2rem;
-}
+/* Global styles - replace with team style */
 body {
   color: white;
   text-align: center;
@@ -30,15 +21,7 @@ h4 {
   letter-spacing: 3px;
 }
 
-
-.card:hover {
-  box-shadow: 0 10px 70px 0 #92b6b0;
-}
-
-img {
-  border-radius: 5px 5px 0 0;
-}
-
+/* Button - move to team styles */
 .button {
   background-color: #58a495;
   text-align: center;
@@ -54,3 +37,24 @@ img {
   cursor: pointer;
 }
 .button:hover {opacity: 1}
+
+
+/* Card styles */
+.card {
+  box-shadow: 0 4px 8px 0 #2b7266;
+  display: inline-block;
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 200px;
+  background-color: #489780;
+  margin: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 10px 70px 0 #92b6b0;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
