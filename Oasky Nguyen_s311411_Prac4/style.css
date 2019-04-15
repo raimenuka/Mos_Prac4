@@ -1,0 +1,45 @@
+/* Global styles - replace with team style */
+body {
+  color: white;
+  text-align: center;
+  font-size:15px;
+}
+
+
+h2 {
+  color: Black;
+  font-family: Impact;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  text-shadow: 2px 1px grey;
+
+}
+h4 {
+  font-size: 20px;
+  font-family: Courier;
+  text-decoration: overline;
+  letter-spacing: 3px;
+}
+/* Card styles */
+.card {
+  box-shadow: 0 4px 8px 0 #2b7266;
+  display: inline-block;
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  margin-bottom: 200px;
+  background-color: #489780;
+  margin: 2rem;
+}
+
+.card:hover {
+  box-shadow: 0 10px 70px 0 #92b6b0;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+.contact{
+	text-align: center;
+	padding: 2px 16px;
+}
